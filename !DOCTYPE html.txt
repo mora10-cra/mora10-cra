@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Mundo de Fútbol - [Tu Nombre]</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>⚽ Fútbol & Yo ⚽</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#football">Mi Fútbol</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>¡Bienvenido a Mi Campo de Juego Personal!</h2>
+                <p>Descubre mi pasión por el deporte más hermoso del mundo.</p>
+                <a href="#about" class="btn">Conóceme Más</a>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>Sobre Mí</h2>
+            <div class="about-container">
+                <img src="https://via.placeholder.com/150" alt="Tu Foto" class="profile-pic">
+                <div class="about-text">
+                    <h3>[Tu Nombre Completo]</h3>
+                    <p>¡Hola! Soy [Tu Nombre], y mi vida ha estado ligada al fútbol desde que tengo memoria. [Escribe aquí tu biografía, cuándo empezó tu pasión, dónde naciste, qué te gusta hacer además del fútbol, etc.]. El fútbol no es solo un deporte para mí; es una forma de vida, una fuente de inspiración y una conexión con millones de personas en todo el mundo.</p>
+                    <p>Desde [tu edad o hace cuánto tiempo] he [menciona algo específico, ej: coleccionado camisetas, jugado en equipos locales, seguido cada liga, etc.].</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="football" class="content-section">
+            <h2>Mi Fútbol</h2>
+            <div class="football-content">
+                <h3>Mis Equipos y Jugadores Favoritos</h3>
+                <p>Soy un fiel seguidor de [Tu Equipo Favorito - ej: Real Madrid, River Plate, Manchester United]. Sus partidos son siempre imperdibles para mí. Admiro a jugadores como [Jugador Favorito 1 - ej: Lionel Messi, Cristiano Ronaldo] por su [razón, ej: magia en el campo, disciplina inigualable] y a [Jugador Favorito 2 - ej: Zinedine Zidane, Ronaldinho] por [razón, ej: su visión de juego, su alegría al jugar].</p>
+
+                <h3>Mis Momentos Futbolísticos Memorables</h3>
+                <p>Uno de mis recuerdos más preciados es [Describe un momento memorable, ej: la final de la Champions League de 20XX, el primer partido al que asistí, un gol que anotaste, etc.]. La emoción y la adrenalina de ese día son algo que nunca olvidaré.</p>
+                <p>También disfruto [Menciona otra actividad relacionada con el fútbol, ej: jugar con amigos cada fin de semana, analizar tácticas, coleccionar cromos].</p>
+            </div>
+        </section>
+
+        <section id="gallery" class="content-section">
+            <h2>Galería de Fútbol</h2>
+            <div class="gallery-grid">
+                <img src="https://via.placeholder.com/300x200?text=Tu+Imagen+1" alt="Descripción de la imagen 1">
+                <img src="https://via.placeholder.com/300x200?text=Tu+Imagen+2" alt="Descripción de la imagen 2">
+                <img src="https://via.placeholder.com/300x200?text=Tu+Imagen+3" alt="Descripción de la imagen 3">
+                <img src="https://via.placeholder.com/300x200?text=Tu+Imagen+4" alt="Descripción de la imagen 4">
+                <img src="https://via.placeholder.com/300x200?text=Tu+Imagen+5" alt="Descripción de la imagen 5">
+                <img src="https://via.placeholder.com/300x200?text=Tu+Imagen+6" alt="Descripción de la imagen 6">
+                </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Contacto</h2>
+            <p>Si quieres contactarme o simplemente hablar de fútbol, ¡no dudes en hacerlo!</p>
+            <p>Puedes enviarme un correo a: <a href="mailto:tu-correo@example.com">tu-correo@example.com</a></p>
+            <p>O encuéntrame en mis redes sociales:</p>
+            <div class="social-links">
+                <a href="https://twitter.com/tu-usuario" target="_blank">Twitter</a>
+                <a href="https://instagram.com/tu-usuario" target="_blank">Instagram</a>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mi Mundo de Fútbol. Creado con pasión por el fútbol.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
